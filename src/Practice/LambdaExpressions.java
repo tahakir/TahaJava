@@ -32,6 +32,7 @@ public class LambdaExpressions {
         list4.removeIf(RemoveAhmed->RemoveAhmed.equals("Ahmed"));
         System.out.println("list4 = " + list4);
 
+
         //remove all the names endsWith "et"
         List<String> list5= new ArrayList<>(Arrays.asList("Ahmet","Ali","Ahmet","Mehmet","Ahmet","Taha","Halet"));
         list5.removeIf(et->et.endsWith("et"));
@@ -50,6 +51,7 @@ public class LambdaExpressions {
         System.out.println("l1 = " + l1);
         System.out.println("l2 = " + l2);
 
+        System.out.println("\tMap\n"+"\\Fun\\");
 
     }
 }
